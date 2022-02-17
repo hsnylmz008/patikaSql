@@ -4,7 +4,7 @@
 
 
 > ## Soru 1
-```SQL
+SQL
 CREATE TABLE employee 
       (
 	id INTEGER,
@@ -14,10 +14,10 @@ CREATE TABLE employee
 	
        )
 
-```
+
 
 > ## Soru 2
-```SQL
+SQL
 11	"Jerry"	"1940-04-12"	"jwetherheada@icio.us"
 12	"Vicky"	"1948-09-14"	"vfellgateb@ifeng.com"
 13	"Izzy"	"1948-08-25"	"idonnersbergc@liveinternet.ru"
@@ -64,10 +64,10 @@ CREATE TABLE employee
 4	"Lelia"	"1988-09-02"	"hilmidemirtas94"
 5	"Hilmi"	"1993-09-13"	"ilist4@usatoday.com"
 
-```
+
 
 > ## Soru 3
-```SQL
+SQL
 
 >- UPDATE employee 
 SET name = 'Hilmi',
@@ -95,10 +95,10 @@ WHERE id = 5;
 
 
 
-```
+
 
 > ## Soru 4
-```SQL
+SQL
 >-DELETE FROM employee
 WHERE id = 6;
 
@@ -113,4 +113,4 @@ WHERE id = 9;
 
 >-DELETE FROM employee
 WHERE id = 10;
-```
+
